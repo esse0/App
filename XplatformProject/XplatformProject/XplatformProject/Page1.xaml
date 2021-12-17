@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             x:Class="XplatformProject.Page1">
+    <ContentPage.Content>
+        <ScrollView  BackgroundColor="#e3e4e5">
+            
+            <StackLayout Margin="5,5,17,0" >
+
+                <Frame  Padding="0" BackgroundColor="#063060">
+                    <FlexLayout JustifyContent="SpaceBetween">
+                        <Label  FontSize="18" Margin="10,15,0,0" Text="Расписание аудитория"></Label>
+                        <Button  Clicked="OnButtonClicked" BackgroundColor="#063060" Text="≡" FontSize="Large"/>
+                    </FlexLayout>
+                </Frame>
+                
+                <StackLayout x:Name="Visbl" IsVisible="false" Padding="0" Margin="0" >
+                        
+                    <FlexLayout AlignContent="Stretch">
+                        <Editor   BackgroundColor="#d9dadb"   ></Editor>
+                    </FlexLayout>
+
+                    <FlexLayout Padding="0">
+                        <Switch  ThumbColor="white"  HeightRequest="26"  WidthRequest="40" BackgroundColor="#e3e4e5"></Switch>
+                        <Label Margin="5,5,20,0"  TextColor="#424242" Text="Присутствие"></Label>
+                        <Switch  ThumbColor="white"   HeightRequest="26"  WidthRequest="40" BackgroundColor="#e3e4e5"></Switch>
+                        <Label Margin="5,5" HeightRequest="15" TextColor="#424242" Text="Зачет"></Label>
+                    </FlexLayout>
+                    
+                </StackLayout>
+            
+                <Frame BackgroundColor="#063060">
+                    <FlexLayout>
+                        <Label Text="Расписание аудитория"></Label>
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="#063060">
+                    <FlexLayout>
+                        <Label Text="Расписание аудитория"></Label>
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="#086FA1">
+                    <FlexLayout>
+                        <Label Text="Расписание аудитория"></Label>
+                    </FlexLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
