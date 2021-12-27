@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:XplatformProject;assembly=XplatformProject"
+             x:Class="XplatformProject.TabbedPage1"
+            NavigationPage.HasNavigationBar="false" BackgroundColor="#e3e4e5" BarTextColor="black">
+    
+    <TabbedPage.Children>
+        <local:Page1 Title="Пн" x:Name="pn" />
+        <local:Page2 Title="Вт" x:Name="vt" />
+        <local:Page3 Title="Ср" x:Name="sr" />
+        <local:Page4 Title="Чт" x:Name="ch" />
+        <local:Page5 Title="Пт" x:Name="pyt" />
+        <local:Page6 Title="Сб" x:Name="sub" />
+    </TabbedPage.Children>
+    
+</TabbedPage>

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "+hWGts2p1UFyYq6tFBVuk/ZHcbODRjxHVQKV0xxEZGOmLxwB/ISgrsrMxgUwV+p6RbL3ZFIZLRSb2Z8CXzb2lg==",
+  "success": true,
+  "projectFilePath": "D:\\Labs\\ОПИ\\lab12\\XplatformProject\\XplatformProject\\XplatformProject\\XplatformProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raw\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\sharpnado.shadows\\1.2.0\\sharpnado.shadows.1.2.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\sharpnado.tabs\\2.2.0\\sharpnado.tabs.2.2.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\sharpnado.taskmonitor\\1.0.2\\sharpnado.taskmonitor.1.0.2.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\system.runtime.windowsruntime\\4.7.0\\system.runtime.windowsruntime.4.7.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Raw\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"
+  ],
+  "logs": []
+}

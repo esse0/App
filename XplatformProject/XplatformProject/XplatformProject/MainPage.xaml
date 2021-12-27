@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             x:Class="XplatformProject.MainPage"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout  Background="#e3e4e5">
+            <Label TextColor="#7D7D7D" Margin="75,60,0,0" Text="Выбирите группу:"></Label>
+            <Frame  Margin="70,0"  Padding="0">
+                <Picker Margin="-3, -3" HeightRequest="45" BackgroundColor="#d9dadb" TextColor="#7D7D7D" x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged"></Picker>
+            </Frame>
+            <Frame Padding="0">
+                    <FlexLayout  Direction="Column" JustifyContent="End">
+                    <StackLayout>
+                        <Frame Padding="0" x:Name="isit" IsVisible="false">
+                            <sh:Shadows CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button  Margin="60,15" TextColor="#7D7D7D" BackgroundColor="#e3e4e5"   HeightRequest="45" FontSize="18" CornerRadius="20"   Text="Расписание ИСИТ-1" Clicked="ToIsit1"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="isi" IsVisible="false">
+                            <sh:Shadows  CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"   Text="Расписание ИСИТ-2" Clicked="ToIsit2"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="isii" IsVisible="false">
+                            <sh:Shadows  CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"   Text="Расписание ИСИТ-3" Clicked="ToIsit3"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="poit" IsVisible="false">
+                            <sh:Shadows  CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ПОИТ-4" Clicked="ToPoit4"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="pot" IsVisible="false">
+                            <sh:Shadows  CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ПОИТ-5" Clicked="ToPoit5"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="butt" IsVisible="false">
+                            <sh:Shadows   CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ПОИТ-6" Clicked="ToPoit6"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="poib" IsVisible="false">
+                            <sh:Shadows   CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ПОИБМС-7" Clicked="ToPoib7"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="poibb" IsVisible="false">
+                            <sh:Shadows   CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ПОИБМС-8" Clicked="ToPoib8"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="deiv" IsVisible="false">
+                            <sh:Shadows   CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ДЭиВИ-9" Clicked="ToDeivi9"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <Frame Padding="0" x:Name="deivv" IsVisible="false">
+                            <sh:Shadows   CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                                <Button TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18" CornerRadius="20"  Text="Расписание ДЭиВИ-10" Clicked="ToDeivi10"/>
+                            </sh:Shadows>
+                        </Frame>
+                        <sh:Shadows  CornerRadius="30" Shades="{sh:NeumorphismShades LowerOffset='3,5', UpperOffset='-2,-4'}" >
+                            <Button Clicked="tohw" TextColor="#7D7D7D" BackgroundColor="#e3e4e5" Margin="60,15" HeightRequest="45" FontSize="18"  CornerRadius="20" Text="Домашнее задание" />
+                        </sh:Shadows>
+                        
+                    </StackLayout>
+                    <StackLayout>
+                        <FlexLayout Opacity="0.6"  Margin="25" Padding="0" JustifyContent="end">
+                            <Label Margin="0,-4,0,0" FontSize="20" FontAttributes="Bold" TextColor="#7D7D7D" Text="®"></Label>
+                            <Label FontSize="13" FontAttributes="Bold" TextColor="#7D7D7D" Text="CSL"></Label>
+                            <Label Margin="0,2,0,0" FontSize="10" FontAttributes="Bold" TextColor="#7D7D7D" Text=" - company for a simple life"></Label>
+                        </FlexLayout>
+                    </StackLayout>
+                </FlexLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

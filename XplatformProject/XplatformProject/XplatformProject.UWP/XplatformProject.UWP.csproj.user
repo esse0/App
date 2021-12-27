@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</Source>
+    <SmallTileSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</SmallTileSource>
+    <MediumTileSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</MediumTileSource>
+    <WideTileSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</WideTileSource>
+    <LargeTileSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</LargeTileSource>
+    <AppIconSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</AppIconSource>
+    <BadgeLogoSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</BadgeLogoSource>
+    <PackageLogoSource>D:\Labs\ОПИ\lab12\XplatformProject\XplatformProject\XplatformProject.UWP\Assets\logo400.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
